@@ -1,6 +1,13 @@
-# Дано целое число m, задающее номер месяца года.
-# Выведите строку — название времени года, соответствующего данному месяцу.
-# Формат входных данных: дано целое число m (1 ≤ m ≤ 12).
-# Формат выходных данных: требуется вывести название времени года
+while True:
+    month = int(input("month= "))
 
-# TODO: your code here
+    if 3 <= month <= 5:
+        print("spring")
+    elif 6 <= month <= 8:
+        print("summer")
+    elif 9 <= month <= 11:
+        print("autumn")
+    elif month <= 12 and month != 0:
+        print("winter")
+    else:
+        print()
